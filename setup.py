@@ -14,7 +14,6 @@ setup(name='django-notifications-hq',
       ],
       packages=['notifications',
                 'notifications.templatetags',
-                'notifications.migrations'
                ],
       package_data={'notifications': [
                                  'templates/notifications/*.html']},
